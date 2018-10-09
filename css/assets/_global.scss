@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+/* core settings */
+* {
+	font-family: 'Poppins', sans-serif;
+	font-size: 100%;
+	box-sizing: border-box;
+}
+
+html {
+	opacity: 0;
+	transition: .2s;
+}
+
+body {
+	background-color: $bgColor;
+	color: $textColor;
+	margin: 0;
+	padding: 0;
+	font-size: 1.2em;
+	line-height: 1.5;
+	border: 0;
+	outline: 0;
+	text-rendering: geometricPrecision;
+	-webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	font-weight: 600;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+li {
+	list-style: none;
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+
+/* core (optional) */
+*:focus {
+	outline: none;
+}
+
+button {
+	border: none;
+}
+
+/* Grid System */
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-auto-flow: dense;
+}
+
+.content-wrap {
+	width: 88%;
+	margin: 0 auto;
+}
+
+/* Button */
+.btn {
+	display: block;
+	background-color: $bgColor;
+	color: $textColor;
+	width: 60%;
+	margin: 1em auto;
+	padding: .5em 0;
+	text-align: center;
+	border-radius: 4px;
+	transition: .2s;
+	cursor: pointer;
+}
+
+input {
+	display: block;
+	width: 100%;
+	border-radius: 4px;
+	border: none;
+	padding: .5em 1em;
+}
+
+.secondary {
+	color: $secondary;
+}
+
+/*JS collaboration */
+.no-scroll {
+	overflow: hidden;
+}
+
+/* Preloads */
+body.preload * {
+	animation-duration: 0s !important;
+	-webkit-animation-duration: 0s !important;
+	transition: background-color 0s, opacity 0s, color 0s, width 0s, height 0s,
+		padding 0s, margin 0s !important;
+}
