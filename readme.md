@@ -1,2 +1,12 @@
 # Hovion
-A simple static webpage by Arthur Prather,Jr © 2018 build with HTML, css/scss, and JavaScript for profolio use only. 
+
+<b>Develop with </b>
+- HTML
+- CSS/SASS
+- JavaScript
+
+<b>Design with ></b>
+- AdobeXD
+- Affinity Designer (Logo and Icons)
+
+My personal and expermental on simple single webpage. Used Adobe XD software design layout. Then develop page following design plan.
